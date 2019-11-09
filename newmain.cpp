@@ -2,9 +2,15 @@
 #include<conio.h>
 void main()
 {
-    float avg;
-    int a[100];
-    cout<<"Enter the any number :";
-    cin>>
+    clrscr();
+    int i,sqr;
+    while(i<11)
+    {
+        sqr = i*i;
+        cout<<"Square of "<<i<<" is "<<sqr<<endl;
+        i++;
+    }
+    getch();
+    
             
 }
